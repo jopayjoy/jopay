@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  /* unvisited link */
+  a:link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+    text-decoration: none;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .p{
+    font-weight: bold;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+  html {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .header {
+    background-color: #ac97c5;
+    color: #ffffff;
+    padding: 15px;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    font-weight: bold;
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #ac94ca;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  .menu li:hover {
+    background-color: #a700d1;
+  }
+  
+  .aside {
+    background-color: #9528a3;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  .footer {
+    background-color: #bca8c9;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+    width: 100%; /* Full width footer */
+    bottom: 0; /* Stick to the bottom */
+  }
+  
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Paula Joy M. Sayon</h1>
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+        <a href="index.html"><li>About Me</li></a>
+        <a href="subjecttaken.html"><li>Subject Taken</li></a>
+        <a href="enrolled.html"><li>Enrolled</li></a>
+        <a href="contactme.html"><li>Contact Me</li></a>
+        <a href="favorites.html"><li>My Favorites</li></a>
+        <a href="gallery.html"><li>Gallery</li></a>
+    </ul>
+  </div>
+
+  <div class="col-6 col-s-9">
+    <h1>My Favorites</h1>
+    <div>
+      <div class="box">
+
+              <p>1. Favorite Book: "Pride and Prejudice" by Jane Austen </p>
+              <img src="pp.jpg" alt="pp" width="200" height="300">
+              <br>A novel of manners who learns about the repercussions of hasty judgments and comes to appreciate the difference between superficial goodness and actual goodness.</br>
+
+              
+      </div>
+      <div class="box">
+              <p>2. Favorite Album: SOS by Sza</p>
+              <img src="sos.jpg" alt="sos" width="200" height="300">
+              <br>The album features guest appearances from Don Toliver, Phoebe Bridgers, Travis Scott, and the late Ol' Dirty Bastard. </br>
+
+      </div>
+      <div class="box">
+              <p>3. Favorite Color: Black</p>
+              <img src="black.jpg" alt="black" width="200" height="300">
+              <br> I just love this color because it fits in everything.</br>
+            </div>
+      
+</div>
+<br>
+<div>
+  <div class="box">
+    <tr>
+    <p>4. Favorite Food: Fries</p>
+    <img src="OIP.jpg" alt="fries" width="200" height="300">
+    <br> I can survive a day by just eating fries.</br>
+  </div>
+      <div class="box">
+              <p>5. Favorite Hobby: Painting</p>
+              <img src="paint.jpg" alt="paint" width="400" height="200">
+              <br> I love painting because that is my way on expressing my feelings.</br>
+      </div>   
+      <div class="box">
+             <p>6. Favorite Music Genre: Indie Folk</p>
+             <img src="indie.jpg" alt="indie" width="200" height="300">
+            <br> I just love the beat of Indie Folk music.</br>
+          </div>
+   
+</div>
+<br>
+<div>
+  <div class="box">
+    <tr>
+    <p>7. Favorite Animal: Dogs</p>
+    <img src="dog.jpg" alt="dog" width="400" height="200">
+    <br> My heart feels soft when I see dogs anywhere.</br>
+</div>
+<div class="box">
+    <p>8. Favorite Place to Visit: Bangkok, Thailand</p>
+    <img src="thai.jpg" alt="thai" width="400" height="200">
+    <br> It is because it is my dream country to visit. Also, I got influenced by it through watching Thaidramas.</br>
+</div>   
+  <div class="box">
+         <p>9. Favorite Season: Autumn</p>
+         <img src="autumn.jpg" alt="autumn" width="400" height="200">
+        <br> I just love the vibe in an autumn season. </br>
+
+      </div>
+
+</div>
+<br>
+<div>
+      <div class="box">
+        <tr>
+        <p>10. Favorite Activity: Hiking in nature</p>
+        <img src="nature.jpg" alt="nature" width="400" height="200">
+        <br> It is fun and enjoying in view the fact that it also helps me to engage in exercise.<br>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="footer">
+  <p>© 2023 - 2024 ITP4 | All Right Reserved</p>
+</div>
+
+</body>
+</html>
